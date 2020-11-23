@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="albumCell" id="Lip-dj-gOQ" customClass="AlbumCell" customModule="Midterm" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="347" height="359"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="s64-io-SxX">
+                <rect key="frame" x="0.0" y="0.0" width="347" height="359"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="phW-Ck-A4q">
+                        <rect key="frame" x="16" y="305" width="315" height="46"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="46" id="9Vx-Un-DH2"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tDy-cd-Q2L">
+                        <rect key="frame" x="0.0" y="0.0" width="347" height="297"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="phW-Ck-A4q" secondAttribute="trailing" constant="16" id="1xe-kc-VAR"/>
+                    <constraint firstItem="phW-Ck-A4q" firstAttribute="top" secondItem="tDy-cd-Q2L" secondAttribute="bottom" constant="8" id="RPo-ca-nRX"/>
+                    <constraint firstItem="phW-Ck-A4q" firstAttribute="leading" secondItem="s64-io-SxX" secondAttribute="leading" constant="16" id="amz-lO-YCQ"/>
+                    <constraint firstAttribute="bottom" secondItem="phW-Ck-A4q" secondAttribute="bottom" constant="8" id="iNu-bA-tDA"/>
+                    <constraint firstAttribute="trailing" secondItem="tDy-cd-Q2L" secondAttribute="trailing" id="irp-7e-9zV"/>
+                    <constraint firstItem="tDy-cd-Q2L" firstAttribute="top" secondItem="s64-io-SxX" secondAttribute="top" id="vUJ-2M-oZq"/>
+                    <constraint firstItem="tDy-cd-Q2L" firstAttribute="leading" secondItem="s64-io-SxX" secondAttribute="leading" id="w14-ce-21n"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <size key="customSize" width="347" height="359"/>
+            <connections>
+                <outlet property="albumImage" destination="tDy-cd-Q2L" id="7h9-ey-QHK"/>
+                <outlet property="detailLabel" destination="phW-Ck-A4q" id="Srs-aZ-gYO"/>
+            </connections>
+            <point key="canvasLocation" x="218.11594202898553" y="187.83482142857142"/>
+        </collectionViewCell>
+    </objects>
+</document>
