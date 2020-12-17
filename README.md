@@ -1,3 +1,6 @@
 # IOS_Instagram_Like_Feed
+![Image of App](https://github.com/YashsviG/IOS_Instagram_Like_Feed/blob/master/Capture.PNG) 
+![Image of App2](https://github.com/YashsviG/IOS_Instagram_Like_Feed/blob/master/Capture2.PNG) <br/><br/>
 
-[![Video](IOS_Instagram_Like_Feed/MacinCloud_LowGraphics_FullScreen - LA961.macincloud.com_6000 - Remote Desktop Connection 2020-11-22 19-26-16.mp4)](IOS_Instagram_Like_Feed/MacinCloud_LowGraphics_FullScreen - LA961.macincloud.com_6000 - Remote Desktop Connection 2020-11-22 19-26-16.mp4)
+![Image of App3](https://github.com/YashsviG/IOS_Instagram_Like_Feed/blob/master/Capture3.PNG)
+![Image of App4](https://github.com/YashsviG/IOS_Instagram_Like_Feed/blob/master/Capture4.PNG) <br/>
